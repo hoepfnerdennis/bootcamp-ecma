@@ -48,7 +48,7 @@ function Weather() {
 
 Folgende Skripte stehen dir zur Verfügung:
 
-### `yarn start`
+### `npm run start`
 
 Startet die App im development mode.
 
@@ -58,7 +58,7 @@ Die Seite aktualisiert sich bei Änderungen von selbst (in der Regel).
 
 Es ist bereits ein linter integriert, dessen Fehler in der Konsole ausgegeben werden.
 
-### `yarn build`
+### `npm run build`
 
 Erzeugt eine produktionsfertige Version der App.
 

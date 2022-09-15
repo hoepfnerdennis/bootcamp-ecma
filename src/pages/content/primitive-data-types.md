@@ -10,7 +10,7 @@ layout: ../../layouts/MainLayout.astro
 
 Eine Zahl.
 
-```
+```js
 const example = 21;
 const secondExample = 2.42;
 ```
@@ -19,15 +19,15 @@ const secondExample = 2.42;
 
 Eine Zeichenkette.
 
-```
-const example = 'Hallo'
+```js
+const example = "Hallo";
 ```
 
 ### Boolean
 
 Wahrheitswert, kann wahr (true) oder falsch (false) sein
 
-```
+```js
 const example = true;
 ```
 
@@ -41,7 +41,7 @@ Wenn Sie zum Beispiel eine Variable deklarieren, ohne ihr einen Wert zuzuweisen,
 
 undefined wird also intern in JavaScript an verschiedenen Stellen genutzt, um »kein Wert« darzustellen.
 
-```
+```js
 console.log();
 ```
 
@@ -55,7 +55,7 @@ Es gibt in JavaScript beispielsweise Funktionen, die üblicherweise Objekte zur�
 
 Der Unterschied zwischen undefined und null ist sehr subtil. Beide sind Platzhalter für »leer« und »kein Wert« mit dem feinen Unterschied »kein Wert zugewiesen« und »absichtlich kein Objekt«.
 
-```
+```js
 const example = null;
 console.log(example);
 ```
