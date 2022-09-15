@@ -1,6 +1,6 @@
 ---
-title: Primitive Datentypen
-description: Primitive Datentypen
+title: Datentypen
+description: Datentypen
 layout: ../../layouts/MainLayout.astro
 ---
 
@@ -108,4 +108,45 @@ numberOfItems = 3;
 ```js
 const test = { isValid: false, key: 1, name: "robert", subscribed: null };
 typeof test.isValid;
+```
+
+## Komplexe Typen
+
+### Objekte
+
+```js
+const object = { hello: "world" };
+```
+
+```js
+const object = {
+  hello: "world",
+  foo: {
+    bar: 123,
+    baz: "foo",
+  },
+};
+```
+
+```js
+const object = {
+  hello: "world",
+  foo: "bar",
+};
+const { hello, foo } = object;
+hello; // "world"
+foo; // "bar"
+```
+
+### Arrays
+
+```js
+const array = ["hello", "world"];
+```
+
+```js
+const array = ["hello", "world"];
+const [foo, bar] = array;
+foo; // "hello"
+bar; // "world"
 ```

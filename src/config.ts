@@ -51,7 +51,7 @@ export const SIDEBAR: Sidebar = {
       { text: "HTML", link: "content/html" },
       { text: "ECMA-Script", link: "content/ecma" },
       { text: "Browser Tools", link: "content/browser-tools" },
-      { text: "Primitive Datentypen", link: "content/primitive-data-types" },
+      { text: "Datentypen", link: "content/primitive-data-types" },
       { text: "Document Object Model", link: "content/dom" },
       { text: "Funktionen", link: "content/functions" },
       { text: "Bedingte Anweisungen", link: "content/if-else" },
