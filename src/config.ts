@@ -68,6 +68,7 @@ export const SIDEBAR: Sidebar = {
         text: "Web Technologien",
         link: "content/react/web-technologies",
       },
+      { text: "Daten laden", link: "content/react/fetch" },
     ],
     Aufgaben: [
       { text: "Aufgabe 1a", link: "lessons/1a" },

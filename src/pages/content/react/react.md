@@ -42,3 +42,27 @@ function Input() {
   );
 }
 ```
+
+## "lift state up"
+
+```jsx
+import { useState } from "react";
+
+function App() {
+  const [city, setCity] = useState("");
+  return (
+    <div>
+      {city}
+      <Body value={city} onChange={setCity} />
+    </div>
+  );
+}
+
+function Body({ value, onChange }) {
+  const handleInput = (event) => {
+    onChange(event.target.value);
+  };
+
+  return <input type="text" onChange={handleInput} value={value} />;
+}
+```
