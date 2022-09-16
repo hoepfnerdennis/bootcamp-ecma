@@ -74,6 +74,7 @@ Status: 200 (OK)
 
 - [HTTP-Statuscodes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
   - Gängig sind 200/201, 400/401/403/404, 300/301
+  - Cheatsheet: https://http.cat/
 
 ## REST
 
